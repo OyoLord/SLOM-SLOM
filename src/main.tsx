@@ -19,10 +19,10 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 // Register the service worker to enable offline support.  This call
 // waits for the window to finish loading before attempting to
 // register; if registration fails it simply logs the error.
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker
-      .register('/sw.js')
-      .catch((err) => console.error('Service worker registration failed', err));
-  });
-}
+// if ('serviceWorker' in navigator) {
+//   window.addEventListener('load', () => {
+//     navigator.serviceWorker
+//       .register('/sw.js')
+//       .catch((err) => console.error('Service worker registration failed', err));
+//   });
+// }
