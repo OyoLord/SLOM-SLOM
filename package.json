@@ -1,0 +1,23 @@
+{
+  "name": "slomslom",
+  "version": "1.0.0",
+  "description": "A mobile first collection of mini tools with a neon‑gothic vibe.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}
