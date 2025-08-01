@@ -10,14 +10,14 @@ import { useNavigate } from 'react-router-dom';
 const SelectionPage: React.FC = () => {
   const navigate = useNavigate();
   const tools = [
-    { icon: '🎡', title: 'Wheel', path: '/tools/wheel' },
-    { icon: '🔊', title: 'Audio', path: '/tools/audio' },
-    { icon: '🎬', title: 'Video', path: '/tools/video' },
-    { icon: '📄', title: 'PDF', path: '/tools/pdf' },
+    { icon: '🎡', title: 'La Roue Cool', path: '/tools/wheel' },
+    { icon: '🔊', title: 'Usain Bolt', path: '/tools/audio' },
+    { icon: '🎬', title: '???', path: '/tools/video' },
+    { icon: '📄', title: 'Révision', path: '/tools/pdf' },
   ];
   return (
     <section className="selection-page">
-      <h1 className="neon-title">Choose your destiny</h1>
+      <h1 className="neon-title">POOOOOOOOOOOOOOOOOY !</h1>
       <div className="grid">
         {tools.map((tool) => (
           <div

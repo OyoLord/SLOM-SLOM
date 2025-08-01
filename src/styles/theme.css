@@ -40,8 +40,8 @@ a {
   line-height: 1;
   margin: 0;
   margin-bottom: 2rem;
-  color: #ff00ff;
-  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+  color: #a000fc;
+  text-shadow: 0 0 5px #a000fc, 0 0 10px #a000fc, 0 0 20px #a000fc;
 }
 
 .neon-button {
@@ -89,8 +89,8 @@ a {
 
 .card:hover {
   transform: translateY(-4px) scale(1.05);
-  border-color: #ff00ff;
-  box-shadow: 0 0 15px #ff00ff;
+  border-color: #a000fc;
+  box-shadow: 0 0 15px #a000fc;
 }
 
 .card-icon {
@@ -104,7 +104,7 @@ a {
   font-size: 1.2rem;
   margin-top: 0.25rem;
   color: #ff99ff;
-  text-shadow: 0 0 5px #ff00ff;
+  text-shadow: 0 0 5px #a000fc;
 }
 
 .back-button {
@@ -113,18 +113,18 @@ a {
   font-family: 'Crimson Pro', cursive;
   font-size: 1rem;
   padding: 0.5rem 1rem;
-  border: 2px solid #ff00ff;
+  border: 2px solid #a000fc;
   border-radius: 8px;
   background-color: transparent;
-  color: #ff00ff;
+  color: #a000fc;
   cursor: pointer;
   transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
 .back-button:hover {
-  background-color: #ff00ff;
+  background-color: #a000fc;
   color: #0a0510;
-  box-shadow: 0 0 10px #ff00ff;
+  box-shadow: 0 0 10px #a000fc;
 }
 
 .wheel-container {
@@ -155,9 +155,9 @@ a {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 20px solid #ff00ff;
+  border-bottom: 20px solid #a000fc;
   transform: translate(-50%, -160%);
-  filter: drop-shadow(0 0 5px #ff00ff);
+  filter: drop-shadow(0 0 5px #a000fc);
 }
 
 .result-message {
