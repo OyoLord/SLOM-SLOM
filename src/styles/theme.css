@@ -35,7 +35,7 @@ a {
 }
 
 .neon-title {
-  font-family: 'Creepster', cursive;
+  font-family: 'Crimson Pro', cursive;
   font-size: 3rem;
   line-height: 1;
   margin: 0;
@@ -45,7 +45,7 @@ a {
 }
 
 .neon-button {
-  font-family: 'Creepster', cursive;
+  font-family: 'Crimson Pro', cursive;
   font-size: 1.5rem;
   padding: 0.75rem 2rem;
   border: 2px solid #00ffff;
@@ -100,7 +100,7 @@ a {
 }
 
 .card-title {
-  font-family: 'Creepster', cursive;
+  font-family: 'Crimson Pro', cursive;
   font-size: 1.2rem;
   margin-top: 0.25rem;
   color: #ff99ff;
@@ -110,7 +110,7 @@ a {
 .back-button {
   align-self: flex-start;
   margin-bottom: 1rem;
-  font-family: 'Creepster', cursive;
+  font-family: 'Crimson Pro', cursive;
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border: 2px solid #ff00ff;
@@ -162,7 +162,7 @@ a {
 
 .result-message {
   margin-top: 1rem;
-  font-family: 'Creepster', cursive;
+  font-family: 'Crimson Pro', cursive;
   font-size: 1.6rem;
   color: #00ffff;
   text-shadow: 0 0 10px #00ffff;
@@ -202,7 +202,7 @@ a {
   align-items: center;
   justify-content: center;
   z-index: 9999;
-  font-family: 'Creepster', cursive;
+  font-family: 'Crimson Pro', cursive;
   font-size: 3rem;
   text-align: center;
   padding: 2rem;
