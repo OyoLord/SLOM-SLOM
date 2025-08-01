@@ -82,13 +82,15 @@ const WheelPage: React.FC = () => {
           position: 'absolute',
           top: '50%',
           left: '50%',
-          transform: `rotate(${angle}deg) translate(-50%, -90%) rotate(${-angle}deg)`,
-          transformOrigin: '0 100%',
-          fontFamily: 'Crimson Pro, serif',
-          fontSize: '1.3rem',
-          fontWeight: 'bold',
+          transform: `rotate(${angle}deg) translateY(-135px) rotate(${-angle}deg)`,
+          transformOrigin: 'center',
+          fontFamily: 'Creepster, cursive',
+          fontSize: '1.2rem',
+          textTransform: 'uppercase',
           color: '#fff',
-          textShadow: '0 0 3px #000',
+          textShadow: '0 0 6px #00ffff, 0 0 12px #00ffff',
+          pointerEvents: 'none',
+          fontWeight: 600,
         }}
       >
         {num}
@@ -102,7 +104,6 @@ const WheelPage: React.FC = () => {
         return (
           <div className="overlay-screen fullpiege">
             <div className="flash-text">Full piège</div>
-            <audio ref={audioRef} src="/audio/piege.mp3" preload="auto" />
           </div>
         );
       case 'inspire':
@@ -115,7 +116,11 @@ const WheelPage: React.FC = () => {
         return (
           <div className="overlay-screen bloque">
             <div>Bloque !</div>
-            {countdown !== null && <div style={{ fontSize: '2.5rem' }}>{countdown}</div>}
+            {countdown !== null && (
+              <div style={{ fontSize: '3rem', marginTop: '1rem', textShadow: '0 0 10px #fff' }}>
+                {countdown}
+              </div>
+            )}
           </div>
         );
       case 'souffle':
@@ -132,6 +137,7 @@ const WheelPage: React.FC = () => {
 
   return (
     <section className="tool-page">
+      <audio ref={audioRef} src="/audio/piege.mp3" preload="auto" />
       {stage === 'wheel' && (
         <>
           <button className="back-button" onClick={() => navigate('/tools')} disabled={buttonsDisabled}>
